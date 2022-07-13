@@ -8,7 +8,7 @@
 
 body{
     background: #f5f8fa93;
-    background-image: url("IMG_2267.jpg");
+
     background-size: cover;
     display: inline-block;
     background-repeat: no-repeat;
@@ -413,4 +413,13 @@ footer button.show{
 .buttons button.quit:hover{
     color: #fff;
     background: #007bff;
+}
+
+.info_box {
+width: 100%;
+}
+@media (min-width: 600px) {
+.info_box {
+    width: 50%;
+}
 }
